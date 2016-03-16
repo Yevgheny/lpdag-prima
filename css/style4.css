@@ -1,0 +1,152 @@
+@import "http://webfonts.ru/import/play.css";
+/*
+	Play, 400, 700
+*/
+#countbox
+{
+	color: #5d5d5d;
+	font-family: 'Conv_PFDinDisplayPro-Reg', sans-serif;
+	font-size: 38px;
+	height: 93px;
+	line-height: 70px;
+	margin: 0 auto 20px;
+	padding: 0;
+	width: 510px;
+}
+#countbox .countbox-num {
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-family: 'Conv_PFDinDisplayPro-Reg', sans-serif;
+	text-align: center;
+	background: #F7F7F7;
+	margin-right: 10px;
+	padding-left: 15px;
+	border: 1px solid #D7D7D7;
+}
+#countbox .countbox-space
+{
+	float: left;
+	height: 90px;
+	width: 8px;
+}
+#countbox-days1,#countbox-hours1,#countbox-mins1,#countbox-secs1,#countbox-days2,#countbox-hours2,#countbox-mins2,#countbox-secs2
+{
+	float: left;
+	height: 67px;
+	margin: 0 -4px 0 0;
+	text-align: center;
+	width: 24px;
+	z-index: 1;
+}
+#countbox-days-text,#countbox-hours-text,#countbox-mins-text,#countbox-secs-text
+{
+	 margin-top: 0.8rem;
+	 position: relative;
+	 width: 2.8rem;
+	 font-size: 14.45px;
+	 color: #5a5b6b;
+}
+#countbox-days-text:before {
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+	 content: "днiв";
+}
+#countbox-hours-text:before {
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+	 content: "годин";
+}
+#countbox-mins-text:before {
+	 content: "хвилин";
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+}
+#countbox-secs-text:before {
+	 content: "секунд";
+	 position: absolute;
+	 top: 17px; 
+	 left: 4px;
+	 display: block; 
+}
+
+/*Timer-2*/
+
+#countbox1
+{
+	color: #5d5d5d;
+	font-family: 'Conv_PFDinDisplayPro-Reg', sans-serif;
+	font-size: 38px;
+	height: 93px;
+	line-height: 70px;
+	margin: 0 auto 20px;
+	padding: 0;
+	width: 510px;
+}
+#countbox1 .countbox-num {
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-family: 'Conv_PFDinDisplayPro-Reg', sans-serif;
+	text-align: center;
+	background: #F7F7F7;
+	margin-right: 10px;
+	padding-left: 15px;
+	border: 1px solid #D7D7D7;
+}
+#countbox1 .countbox-space
+{
+	float: left;
+	height: 90px;
+	width: 8px;
+}
+#countbox1-days1,#countbox1-hours1,#countbox1-mins1,#countbox1-secs1,#countbox1-days2,#countbox1-hours2,#countbox1-mins2,#countbox1-secs2
+{
+	float: left;
+	height: 67px;
+	margin: 0 -4px 0 0;
+	text-align: center;
+	width: 24px;
+	z-index: 1;
+}
+#countbox1-days-text,#countbox1-hours-text,#countbox1-mins-text,#countbox1-secs-text
+{
+	 margin-top: 0.8rem;
+	 position: relative;
+	 width: 2.8rem;
+	 font-size: 14.45px;
+	 color: #5a5b6b;
+}
+#countbox1-days-text:before {
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+	 content: "дней";
+}
+#countbox1-hours-text:before {
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+	 content: "часов";
+}
+#countbox1-mins-text:before {
+	 content: "минут";
+	 position: absolute;
+	 top: 17px; 
+	 left: 6px;
+	 display: block;
+}
+#countbox1-secs-text:before {
+	 content: "секунд";
+	 position: absolute;
+	 top: 17px; 
+	 left: 4px;
+	 display: block; 
