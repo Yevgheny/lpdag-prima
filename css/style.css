@@ -341,7 +341,7 @@ span {
 }
 .btn-green {
   width: 270px;
-  height: 62px;
+  height: 55px;
   display: block;
   background: url("../img/btn-green-bgr.png") no-repeat center;
   overlay: hidden;
@@ -353,14 +353,14 @@ span {
 }
 .btn-green:hover {
   width: 270px;
-  height: 62px;
+  height: 55px;
   display: block;
   background: url("../img/btn-green-bgr-hover.png") no-repeat center;
   overlay: hidden;
   font-size: 20px;
   color: #ffffff;  
   margin-bottom: 20px;
-  line-height: 55px;
+  line-height: 57px;
 }
 .btn-green:before {
   content: "";
@@ -501,7 +501,7 @@ textarea:focus:-ms-input-placeholder {
 }
 .top-open-form {
   width: 920px;
-  background: rgb(97, 36, 17);
+  background: #343652;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 8px;
@@ -930,7 +930,7 @@ textarea:focus:-ms-input-placeholder {
 }
 .vertical_tab_nav div article p {
   margin: 0px 0px 10px 0px;
-  line-height: 1.6;
+  line-height: 1.4;
   color: #676876;  
 }
 .vertical-tab-nav-item__headline {
@@ -1646,7 +1646,7 @@ textarea:focus:-ms-input-placeholder {
     padding-top: 112px;
   }
   .what-is-hormann-list__item p {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     color: #5a5b6b;
   }
