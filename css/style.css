@@ -1243,7 +1243,7 @@ textarea:focus:-ms-input-placeholder {
   padding: 0 35px 0 0;
 }
 .winter-presents-top {
-  padding-left: 25px;
+  padding-left: 20px;
 }
 .winter-presents-bottom {
   text-align: center;
@@ -1795,12 +1795,13 @@ textarea:focus:-ms-input-placeholder {
   }
   .questions-headline-bottom {
     position: absolute;
-    left: 15px;
+    left: 0;
     bottom: 100px;
+    font-size: 29px;
     font-weight: 300;
     padding-top: 55px;
     display: inline-block;
-    margin-left: 130px;
+    margin-left: 110px;
     margin-right: 20px;
   }
   .questions__btn--bot {
